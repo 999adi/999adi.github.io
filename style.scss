@@ -122,7 +122,16 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+ table {
+     border-collapse: collapse;
+     width: 100%;
+	 border-radius: 25px;
+}
+	
+table, th, td {
+   border: 1px solid white;
+        background-color:#984b43;
+    
   background: $lightGray;
 }
 ::selection {
