@@ -146,10 +146,16 @@ th {
    vertical-align: middle;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
+div.vid {
+    width: 560px;
+    height: 340px;
+    margin: 0 auto;
+}
+
+iframe{
+	width: 100%;
+	
+}
     content: " ";
     display: table;
 }
