@@ -132,11 +132,18 @@ table, th, td {
    border: 1px solid white;
         background-color:#984b43;
     
-  background: $lightGray;
 }
-::selection {
-  color: $black;
-  background: $lightGray;
+	
+td {
+   vertical-align: middle; 
+   padding: 10px;
+}
+
+th {
+   color: white;
+   background: #233237;
+   height:50px;
+   vertical-align: middle;
 }
 
 // Nicolas Gallagher's micro clearfix hack
