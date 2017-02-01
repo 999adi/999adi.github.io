@@ -123,7 +123,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
  table {
-     border-collapse: collapse;
+     width: 100%;
+ }
+ 
+ th {
+     height: 50px;
  }
 	 
 table, th, td {
